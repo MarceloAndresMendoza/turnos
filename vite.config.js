@@ -7,5 +7,5 @@ export default defineConfig({
   base: '/turnos/',
   build: {
     outDir: './docs',
-  }
+  },
 })

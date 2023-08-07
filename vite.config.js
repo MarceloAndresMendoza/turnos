@@ -5,6 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
+    site: "https://marceloandresmendoza.github.io",
+    base: "turnos",
     outDir: './docs',
   }
 })
